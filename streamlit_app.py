@@ -7,10 +7,10 @@ st.set_page_config(page_title="Interactive Data Portfolio | Yossi", page_icon="�
 
 with st.sidebar:
     st.header("👤 Profile")
-    name = st.text_input("Name", value="Yossi")
+    name = st.text_input("Name", value="Yusman Rusyda Habibie")
     role = st.text_input("Role", value="Data Scientist & Finance Manager (Ready-mix Concrete)")
     bio = st.text_area("Short bio", value="Data scientist & finance manager; fokus pada analisis bisnis, visualisasi, dan otomasi laporan.")
-    contact = st.text_input("Contact (email/LinkedIn)", value="your.name@example.com | linkedin.com/in/yourprofile")
+    contact = st.text_input("Email)", value="yossi.habibie@gmail.com")
 
     st.markdown("---")
     st.subheader("📦 Data Source")
