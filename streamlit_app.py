@@ -114,20 +114,14 @@ if (chosen_num in df.columns) and (chosen_date in df.columns if chosen_date is n
         mx = ts.loc[ts[chosen_num].idxmax()]
         st.markdown(f"**Insight:** puncak {chosen_num} pada `{mx[chosen_date].date()}` = `{mx[chosen_num]:,.2f}`.")
 
-st.subheader("💾 Export")
+st.subheader(" Export")
 st.download_button("Download filtered data as CSV", data=df.to_csv(index=False), file_name="filtered_data.csv", mime="text/csv")
 
-st.subheader("🧭 Project Narrative")
+st.subheader(" Project Narrative")
 st.markdown("""
 **Tujuan:** Menampilkan kemampuan eksplorasi & visualisasi data secara interaktif.
 
-**Alur:**
-1) Pilih sumber data (sample atau upload CSV)
-2) Pilih kolom kategorikal/numerik dan rentang tanggal (opsional)
-3) Lihat grafik & insight singkat
-4) Unduh hasil filter
-
-**Catatan:** Sesuaikan profil dan narasi agar sesuai portofolio/tugas.
+**Catatan:** -.
 """)
 
 st.markdown("---")
