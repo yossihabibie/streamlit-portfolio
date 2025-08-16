@@ -119,7 +119,7 @@ st.download_button("Download filtered data as CSV", data=df.to_csv(index=False),
 
 st.subheader(" Project Narrative")
 st.markdown("""
-**Tujuan:** Menampilkan kemampuan eksplorasi & visualisasi data secara interaktif.
+**Tujuan:** Menampilkan tren penjualan beton readymix serta disajikan dengan visualisasi data secara interaktif.
 
 **Catatan:** -.
 """)
